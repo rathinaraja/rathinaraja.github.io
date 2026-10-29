@@ -1,16 +1,51 @@
 # this file contains the social media links and usernames of the author
 # the socials will be displayed in the order they are defined here
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
-cv_pdf: /assets/pdf/RATHINARAJA_JEYARAJ_CV.pdf # path to your CV PDF file
-email: jrathinaraja@gmail.com # your email address
 # inspirehep_id: 1010907 # Inspire HEP author ID
-rss_icon: true # comment this line to hide the RSS icon
-scholar_userid: mJkw7uEAAAAJ # your Google Scholar ID 
-linkedin_username: rathinaraja-jeyaraj-14590a91
-github_username: rathinaraja 
+# rss_icon: true # comment this line to hide the RSS icon
 # wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 # whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 # custom_social: # can be any name here other than the ones already defined in the jekyll-socials plugin
 #   logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
 #   title: Custom Social
 #   url: https://www.alberteinstein.com/
+
+# ---- custom (official site) ----
+# stanford:
+#   logo: /assets/img/logos/stanford.png
+#   title: Stanford Profile
+#   url: https://profiles.stanford.edu/rathinaraja-jeyaraj
+
+# ---- built-in icons ----
+linkedin_username: rathinaraja-jeyaraj-14590a91
+scholar_userid: mJkw7uEAAAAJ
+github_username: rathinaraja
+research_gate_profile: Rathinaraja-Jeyaraj
+
+# ---- custom ----
+openreview:
+  logo: /assets/img/logos/openreview.png
+  title: OpenReview
+  url: https://openreview.net/profile?id=~Rathinaraja_Jeyaraj1
+wos:
+  logo: /assets/img/logos/wos.png
+  title: Web of Science
+  url: https://www.webofscience.com/wos/author/record/ABB-7781-2021
+
+# ---- built-in icons ----
+orcid_id: 0000-0003-0165-181X
+scopus_id: 57203111601
+dblp_url: https://dblp.org/pid/222/3431.html
+semanticscholar_id: 51043236
+
+# ---- custom ----
+sciprofiles:
+  logo: /assets/img/logos/sciprofiles.png
+  title: SciProfiles
+  url: https://sciprofiles.com/profile/2886680
+academia:
+  logo: /assets/img/logos/academia.png
+  title: Academia
+  url: https://stanford.academia.edu/RathinarajaJeyaraj
+cv_pdf: /assets/pdf/RATHINARAJA_JEYARAJ_CV.pdf # path to your CV PDF file
+email: jrathinaraja@gmail.com # your email address

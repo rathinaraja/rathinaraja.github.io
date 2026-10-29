@@ -9,9 +9,7 @@ profile:
   image: prof_pic.jpeg
   image_circular: false # crops the image to make it circular
   more_info: > 
-    <p style="font-size: 14px;">
-  Look at everything as an infant does; absorbing everything, not judging anything, not labelling anyone
-</p>
+    quote: "Look at everything as an infant does; absorbing everything, not judging anything, not labelling anyone"
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page

@@ -19,23 +19,31 @@ email: jrathinaraja@gmail.com # your email address
 
 # ---- built-in icons ----
 linkedin_username: rathinaraja-jeyaraj-14590a91
-scholar_userid: mJkw7uEAAAAJ
-github_username: rathinaraja
+# scholar_userid: mJkw7uEAAAAJ
+scholar:
+  logo: /assets/img/logos/google_scholar.png
+  title: Google Scholar
+  url: https://scholar.google.com/citations?hl=en&user=mJkw7uEAAAAJ&view_op=list_works&sortby=pubdate
+# github_username: rathinaraja
+github:
+  logo: /assets/img/logos/github.png
+  title: GitHub
+  url: https://github.com/rathinaraja?tab=repositories
 # research_gate_profile: Rathinaraja-Jeyaraj
 
 # ---- custom ----
-openreview:
-  logo: /assets/img/logos/openreview.png
-  title: OpenReview
-  url: https://openreview.net/profile?id=~Rathinaraja_Jeyaraj1
+# openreview:
+#   logo: /assets/img/logos/openreview.png
+#   title: OpenReview
+#   url: https://openreview.net/profile?id=~Rathinaraja_Jeyaraj1
 wos:
   logo: /assets/img/logos/wos.png
   title: Web of Science
   url: https://www.webofscience.com/wos/author/record/ABB-7781-2021
 
 # ---- built-in icons ----
-orcid_id: 0000-0003-0165-181X
-scopus_id: 57203111601
+# orcid_id: 0000-0003-0165-181X
+# scopus_id: 57203111601
 # dblp_url: https://dblp.org/pid/222/3431.html
 # semanticscholar_id: 51043236
 

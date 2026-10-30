@@ -1,189 +1,200 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Rathinaraja Jeyaraj
+  label: Researcher, Stanford University
+  email: rajaj@stanford.edu
+  location: Palo Alto, California, USA
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: "Data scientist and AI engineer specializing in computer vision, multimodal learning, and machine learning operations (MLOps), with a focus on biomedical imaging and computational pathology. Experienced in building end-to-end pipelines, from large-scale data preprocessing and model development to GPU-scale training and deployment."
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
     - network: LinkedIn
-      username: example
+      username: rathinaraja-jeyaraj-14590a91
+    - network: GitHub
+      username: rathinaraja
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
+    city: Palo Alto
     region: California
-    postalCode: CA 94115
+    postalCode: "94306"
     countryCode: US
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
+      - institution: National Institute of Technology Karnataka
+        location: Surathkal, India
+        area: Information Technology
+        studyType: Ph.D.
+        start_date: 2015
+        end_date: 2020
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+      - institution: Bharathiar University
+        location: Coimbatore, India
+        area: Information Systems
+        studyType: M.B.A.
+        start_date: 2010
+        end_date: 2012
+
+      - institution: Anna University Coimbatore
+        location: Coimbatore, India
+        area: Information Technology
+        studyType: M.Tech.
+        start_date: 2009
+        end_date: 2011
+
+      - institution: CSI College of Engineering
+        location: Ooty, India
+        area: Information Technology
+        studyType: B.Tech.
+        start_date: 2004
+        end_date: 2008
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
-        highlights:
-          - Relativity
-          - Description 2.
+      - company: Stanford University
+        position: Post-Doctoral Scholar
+        location: California, USA
+        start_date: 2024-10
+        end_date: 2026-10
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
-        highlights:
-          - Description 1.
-          - Description 2.
+      - company: University of Houston-Victoria
+        position: Post-Doctoral Fellow
+        location: Texas, USA
+        start_date: 2023-08
+        end_date: 2024-10
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
+      - company: Kyungpook National University
+        position: Post-Doctoral Associate
+        location: Daegu, South Korea
+        start_date: 2021-03
+        end_date: 2023-08
 
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
+      - company: VIT-AP University
+        position: Assistant Professor
+        location: Vijayawada, India
+        start_date: 2020-09
+        end_date: 2021-05
 
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
+      - company: Duratech Solutions
+        position: Research Scientist and Corporate Trainer
+        location: Coimbatore, India
+        start_date: 2019-09
+        end_date: 2020-08
 
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+      - company: National Institute of Technology Karnataka
+        position: Teaching Assistant
+        location: Surathkal, India
+        start_date: 2015-07
+        end_date: 2019-08
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - company: National Institute of Technology Karnataka
+        position: Temporary Faculty
+        location: Surathkal, India
+        start_date: 2014-12
+        end_date: 2015-06
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - company: National Institute of Technology Calicut
+        position: Adhoc Faculty
+        location: Calicut, India
+        start_date: 2012-07
+        end_date: 2014-12
 
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
-
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+      - company: SNS College of Technology
+        position: Assistant Professor
+        location: Coimbatore, India
+        start_date: 2011-06
+        end_date: 2012-07
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Generative AI
+        icon: fa-solid fa-wand-magic-sparkles
+        keywords: "Transformers, LLMs, Multimodal Learning, RAG, LangChain, ChromaDB, LoRA Fine-tuning, Knowledge Distillation, Quantization, Self-supervised Learning"
 
-    Languages:
-      - name: German
-        summary: "Native speaker"
+      - name: Computer Vision
+        icon: fa-solid fa-eye
+        keywords: "ViT, Multiple Instance Learning, U-Net, nnU-Net, SegFormer, SAM, YOLO, DETR, MediaPipe, QuPath, Roboflow, LabelImg"
 
-      - name: English
-        summary: "Fluent"
+      - name: MLOps & Data Engineering
+        icon: fa-solid fa-gears
+        keywords: "MLflow, Experiment Tracking, Model Versioning, vLLM, Streamlit, Docker, Slurm, Linux (Ubuntu), Hadoop, Apache Spark, Apache Kafka, MongoDB, Cassandra"
+
+      - name: Cloud & DevOps
+        icon: fa-solid fa-cloud
+        keywords: "AWS, GCP, OpenStack, KVM, VirtualBox, GitHub Actions, Git"
+
+      - name: Programming & Frameworks
+        icon: fa-solid fa-code
+        keywords: "Python, Groovy; working knowledge of C and Java; PyTorch, TensorFlow"
 
     Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Research Interests
+        icon: fa-solid fa-lightbulb
+        keywords: "Large Language Models (LLMs), Vision Language Models (VLMs), Large-scale Image Analytics, Image Classification & Segmentation, Deep Learning Optimization"
 
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+      - name: Research Domains
+        icon: fa-solid fa-flask
+        keywords: "Computer Vision, Multimodal Learning, Biomedical AI and Medical Imaging, Multimodal and Generative AI, Cloud and Distributed Computing"
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+      - name: AI-based Histopathology
+        start_date: 2024-10
+        end_date: 2026-10
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: AI-Driven Climate Risk Assessment at the Hanford Site
+        start_date: 2023-08
+        end_date: 2024-09
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Automated Fabric Defect Detection and Visualization
+        start_date: 2022-09
+        end_date: 2023-05
+
+      - name: Optimizer Enhancements for Deep Neural Networks
+        start_date: 2022-05
+        end_date: 2023-05
+
+      - name: Real-time Fault Detection in Fused Deposition Modelling
+        start_date: 2022-07
+        end_date: 2022-10
+
+      - name: Gesture Recognition System for Sign Language and Music Generation
+        start_date: 2022-02
+        end_date: 2023-05
+
+      - name: Korean Handwritten Text Recognition
+        start_date: 2021-12
+        end_date: 2022-02
+
+      - name: Object Detection in Manufacturing and Smart City
+        start_date: 2021-03
+        end_date: 2022-02
+
+    Research Proposals:
+      - name: "Unsupervised learning-based WSI classification and clinical text generation using multimodality"
+        summary: "2024"
+
+      - name: "Smart prostheses: real-time knowledge augmentation and direct neural sensory feedback"
+        summary: "2023"
+
+      - name: "Multimodal biometric authentication: integrating voice, vision, and motion for enhanced security"
+        summary: "2023"
+
+      - name: "Transparent artificial intelligence for healthcare technologies"
+        summary: "2023"
+
+    Professional Services:
+      - name: Associate Editor
+        summary: "Journal of Biomedical and Health Informatics (JBHI), 2026 – present; IEEE Systems, Man, and Cybernetics (SMC), 2023 – present"
+
+      - name: Co-organizer and Track Chair
+        summary: "RECCAP 2026, IIT Palakkad, India; North American Young Investigators Symposium on Mathematical Oncology 2026, Stanford University, USA"
+
+      - name: Program Committee Member
+        summary: "International Conference on Soft Computing and its Engineering Applications (2021 – 2023); International Conference on Innovative Computing and Communications (2021)"
+
+      - name: Reviewer
+        summary: "ICLR, CVPR, NeurIPS, WACV, MICCAI (2026); JBHI (2025 – present); Neural Networks (2024 – present); Journal of Supercomputing (2023 – present); IEEE Transactions on Artificial Intelligence (2023 – present); Applied Intelligence (2023 – present); Engineering Applications of Artificial Intelligence (2023 – present); ECML-PKDD (2022); IEEE Access (2021 – present)"
+
+    Memberships:
+      - name: IEEE
+        summary: "Senior Member"
+
+      - name: ACM
+        summary: "Member"

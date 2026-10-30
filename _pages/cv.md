@@ -1,9 +1,9 @@
 ---
 layout: page
 permalink: /cv/
-title: CV
+title: Contact
 nav: true
-nav_order: 5
+nav_order: 99
 toc: false
 ---
 
@@ -34,6 +34,8 @@ toc: false
 @media(max-width:720px){.cv-profile-links{grid-template-columns:repeat(3,minmax(0,1fr));}.cv-profile h2{font-size:1.33rem;}}
 @media(max-width:490px){.cv-profile-links{grid-template-columns:repeat(2,minmax(0,1fr));}.cv-profile-links a{font-size:.78rem;padding:.43rem .5rem;}.cv-entry{padding:.75rem;}}
 @media(prefers-reduced-motion:reduce){.cv-action,.cv-profile-links a{transition:none;}.cv-action:hover,.cv-profile-links a:hover{transform:none;}}
+/* Keep page titles in navigation, not repeated above the content. */
+.post-header .post-title,.post-header h1,.page-header .page-title{display:none!important}
 </style>
 
 <div class="cv-profile">

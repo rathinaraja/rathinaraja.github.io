@@ -2,10 +2,10 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Rathinaraja Jeyaraj # the website title (if blank, full name will be used instead)
+title: Rathinaraja Jeyaraj Ph.D. # the website title (if blank, full name will be used instead)
 first_name: Rathinaraja 
 middle_name: 
-last_name: Jeyaraj Ph.D.
+last_name: Jeyaraj
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"

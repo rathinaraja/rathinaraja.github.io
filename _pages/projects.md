@@ -32,6 +32,9 @@ nav_order: 3
 .research-card{padding:0!important}.research-project-toggle{display:block;cursor:pointer;position:relative;padding:1.05rem 3.6rem 1.05rem 1.4rem;list-style:none}.research-project-toggle::-webkit-details-marker{display:none}.research-project-toggle::marker{content:""}.research-project-title{font-size:1.13rem;line-height:1.45;font-weight:750;display:block}.research-project-toggle .research-card-top{margin-bottom:.3rem}.research-chevron{position:absolute;right:1.4rem;top:50%;transform:translateY(-50%);color:var(--rp-accent);transition:transform .2s}.research-card[open] .research-chevron{transform:translateY(-50%) rotate(180deg)}.research-card-body{padding:0 1.5rem 1.5rem}.research-card[open]{border-color:var(--rp-accent)}.research-project-toggle:hover,.research-project-toggle:focus-visible{background:rgba(100,120,180,.06)}.research-project-toggle:focus-visible{outline:2px solid var(--rp-accent);outline-offset:-3px}.research-list{gap:.75rem}.research-card .research-details{margin-top:1rem}
 /* Keep page titles in navigation, not repeated above the content. */
 .post-header .post-title,.post-header h1,.page-header .page-title{display:none!important}
+
+/* Hide only the automatic duplicate page heading, preserving all content headings. */
+.post-header,.page-header{display:none!important}
 </style>
 
 <div class="research-projects">

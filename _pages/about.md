@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Researcher</a> Palo Alto, CA, USA
+subtitle: Researcher, Stanford University, Palo Alto, CA, USA
 
 profile:
   align: right

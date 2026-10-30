@@ -22,6 +22,9 @@ calendar: false
 .teach-note{font-size:.88rem;color:var(--global-text-color-light);margin-top:1.3rem}
 @media(max-width:720px){.teach-grid{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:reduce){.teach-card{transition:none}.teach-card:hover{transform:none}}
+.teach-card{position:relative;overflow:hidden;padding-top:1.6rem}.teach-card:before{content:"";position:absolute;top:0;left:0;width:100%;height:4px;background:var(--teach-accent)}.teach-card h3{letter-spacing:-.015em}.teach-card ul{list-style:none;padding:0}.teach-card li{position:relative;padding:.3rem .35rem .3rem 1.25rem;border-bottom:1px solid var(--global-divider-color,#ddd)}.teach-card li:last-child{border-bottom:none}.teach-card li:before{content:"";position:absolute;left:.2rem;top:.85rem;width:6px;height:6px;background:var(--teach-accent);border-radius:50%}.teach-level{margin-bottom:.35rem}.teach-grid{gap:1.15rem}
+/* Keep page titles in navigation, not repeated above the content. */
+.post-header .post-title,.post-header h1,.page-header .page-title{display:none!important}
 </style>
 
 <div class="teach-wrap">

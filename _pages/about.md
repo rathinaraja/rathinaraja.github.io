@@ -22,7 +22,7 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
@@ -31,4 +31,7 @@ I work at the intersection of AI, multimodal learning, and large-scale image ana
 
 I develop scalable deep learning systems spanning WSI preprocessing, multiple instance learning, segmentation, survival prediction, and multimodal image-text modeling. My work also involves attention interpretability, contrastive learning, pathology foundation model adaptation, and large-scale AI pipelines. Beyond healthcare AI, I have experience in time-series forecasting, distributed computing, cloud infrastructure, and real-time computer vision systems for industrial and smart-city applications.
 
+<style>
+  .profile { width: 20% !important; }
+</style>
 I am particularly interested in building reliable, interpretable, and clinically meaningful AI systems that bridge computer vision, multimodal learning, and large-scale reasoning.

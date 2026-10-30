@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpeg
   image_circular: false # crops the image to make it circular
   more_info: > 
-    <p style="font-size: 0.8em; font-style: italic;">
+    <p style="font-size: 0.7em; font-style: italic;">
       Look at everything as an infant does; absorbing everything, not judging anything, not labelling anyone!!!
     </p>
 

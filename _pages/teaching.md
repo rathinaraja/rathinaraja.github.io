@@ -1,15 +1,63 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Course materials, schedules, and resources for classes taught.
+title: Teaching
 nav: true
 nav_order: 6
-calendar: true
+description:
+calendar: false
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
+<style>
+.teach-wrap{max-width:1050px;margin:auto;--teach-accent:var(--global-theme-color,#2563eb)}
+.teach-intro{font-size:1.06rem;color:var(--global-text-color-light);margin-bottom:1.5rem}
+.teach-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}
+.teach-card{border:1px solid var(--global-divider-color,#ddd);background:var(--global-card-bg-color,transparent);border-radius:14px;padding:1.35rem 1.5rem;box-shadow:0 3px 14px rgba(0,0,0,.035);transition:border-color .2s,transform .2s}
+.teach-card:hover{border-color:var(--teach-accent);transform:translateY(-2px)}
+.teach-card h3{font-size:1.12rem;line-height:1.45;font-weight:750;margin:0 0 .45rem}
+.teach-place{font-size:.88rem;color:var(--global-text-color-light);margin-bottom:1rem}
+.teach-level{display:inline-block;border:1px solid var(--teach-accent);color:var(--teach-accent);font-weight:700;font-size:.75rem;padding:.17rem .48rem;border-radius:20px;margin-right:.4rem}
+.teach-card ul{margin:.6rem 0 0;padding-left:1.3rem}
+.teach-card li{margin:.35rem 0}
+.teach-note{font-size:.88rem;color:var(--global-text-color-light);margin-top:1.3rem}
+@media(max-width:720px){.teach-grid{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){.teach-card{transition:none}.teach-card:hover{transform:none}}
+</style>
 
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
-
-{% include courses.liquid %}
+<div class="teach-wrap">
+  <h2>Courses Taught</h2>
+  <p class="teach-intro">Graduate and undergraduate instruction in data science, computing systems, and programming across universities in India and South Korea.</p>
+  <div class="teach-grid">
+    <article class="teach-card">
+      <h3>Kyungpook National University</h3>
+      <div class="teach-place"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> South Korea</div>
+      <span class="teach-level">Graduate (G)</span>
+      <ul><li>Data Science</li></ul>
+    </article>
+    <article class="teach-card">
+      <h3>National Institute of Technology Karnataka</h3>
+      <div class="teach-place"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> India</div>
+      <span class="teach-level">Graduate (G)</span>
+      <ul><li>Big Data and Cloud Computing</li></ul>
+    </article>
+    <article class="teach-card">
+      <h3>National Institute of Technology Calicut</h3>
+      <div class="teach-place"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> India</div>
+      <span class="teach-level">Undergraduate (UG)</span>
+      <ul><li>Computer Organization and Architecture</li><li>Data Structures and Analysis</li><li>Operating System</li></ul>
+    </article>
+    <article class="teach-card">
+      <h3>VIT-AP University</h3>
+      <div class="teach-place"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> India</div>
+      <span class="teach-level">Undergraduate (UG)</span>
+      <ul><li>C Programming</li><li>Java Programming</li><li>Python Programming</li></ul>
+    </article>
+    <article class="teach-card">
+      <h3>SNS College of Technology</h3>
+      <div class="teach-place"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> India</div>
+      <span class="teach-level">Undergraduate (UG)</span>
+      <ul><li>Computer Graphics</li><li>Advanced Java Programming</li></ul>
+    </article>
+  </div>
+  <p class="teach-note"><strong>G</strong> — Graduate · <strong>UG</strong> — Undergraduate</p>
+</div>

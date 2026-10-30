@@ -1,16 +1,73 @@
 cv:
   name: Rathinaraja Jeyaraj
-  label: Researcher, Stanford University
+  label: Researcher
+  organization: Stanford University
   email: rajaj@stanford.edu
-  location: Palo Alto, California, USA
+  emails:
+    - rajaj@stanford.edu
+    - jrathinaraja@gmail.com
+  location: Palo Alto, California 94306, USA
   image: ""
-  summary: "Data scientist and AI engineer specializing in computer vision, multimodal learning, and machine learning operations (MLOps), with a focus on biomedical imaging and computational pathology. Experienced in building end-to-end pipelines, from large-scale data preprocessing and model development to GPU-scale training and deployment."
+  summary: "Data Scientist and AI Engineer specializing in computer vision, machine learning operations (MLOps), and end-to-end AI system development. Experienced in designing scalable machine learning and deep learning pipelines, with expertise in multimodal learning, generative AI, large-scale image analytics, and distributed computing. Research spans biomedical imaging, computational pathology, computer vision, and the optimization, evaluation, and deployment of AI models."
 
   social_networks:
-    - network: LinkedIn
+    - network: "Official"
+      url: "https://profiles.stanford.edu/rathinaraja-jeyaraj"
+    - network: "LinkedIn"
+      url: "https://www.linkedin.com/in/rathinaraja-jeyaraj-14590a91/"
       username: rathinaraja-jeyaraj-14590a91
-    - network: GitHub
+    - network: "GitHub"
+      url: "https://github.com/rathinaraja"
       username: rathinaraja
+    - network: "Google Scholar"
+      url: "https://scholar.google.co.in/citations?hl=en&user=mJkw7uEAAAAJ&view_op=list_works&sortby=pubdate"
+    - network: "ResearchGate"
+      url: "https://www.researchgate.net/profile/Rathinaraja-Jeyaraj"
+    - network: "OpenReview"
+      url: "https://openreview.net/profile?id=%7ERathinaraja_Jeyaraj1"
+    - network: "Web of Science"
+      url: "https://www.webofscience.com/wos/author/record/ABB-7781-2021"
+    - network: "ORCID"
+      url: "https://orcid.org/0000-0003-0165-181X"
+    - network: "Scopus"
+      url: "https://www.scopus.com/authid/detail.uri?authorId=57203111601"
+    - network: "DBLP"
+      url: "https://dblp.org/pid/222/3431.html"
+    - network: "Semantic Scholar"
+      url: "https://www.semanticscholar.org/author/Rathinaraja-Jeyaraj/51043236"
+    - network: "SciProfiles"
+      url: "https://sciprofiles.com/profile/2886680"
+    - network: "Academia.edu"
+      url: "https://stanford.academia.edu/RathinarajaJeyaraj"
+
+  # Explicit profile links for templates that do not recognize custom social networks.
+  profile_links:
+    - name: "Official"
+      url: "https://profiles.stanford.edu/rathinaraja-jeyaraj"
+    - name: "LinkedIn"
+      url: "https://www.linkedin.com/in/rathinaraja-jeyaraj-14590a91/"
+    - name: "GitHub"
+      url: "https://github.com/rathinaraja"
+    - name: "Google Scholar"
+      url: "https://scholar.google.co.in/citations?hl=en&user=mJkw7uEAAAAJ&view_op=list_works&sortby=pubdate"
+    - name: "ResearchGate"
+      url: "https://www.researchgate.net/profile/Rathinaraja-Jeyaraj"
+    - name: "OpenReview"
+      url: "https://openreview.net/profile?id=%7ERathinaraja_Jeyaraj1"
+    - name: "Web of Science"
+      url: "https://www.webofscience.com/wos/author/record/ABB-7781-2021"
+    - name: "ORCID"
+      url: "https://orcid.org/0000-0003-0165-181X"
+    - name: "Scopus"
+      url: "https://www.scopus.com/authid/detail.uri?authorId=57203111601"
+    - name: "DBLP"
+      url: "https://dblp.org/pid/222/3431.html"
+    - name: "Semantic Scholar"
+      url: "https://www.semanticscholar.org/author/Rathinaraja-Jeyaraj/51043236"
+    - name: "SciProfiles"
+      url: "https://sciprofiles.com/profile/2886680"
+    - name: "Academia.edu"
+      url: "https://stanford.academia.edu/RathinarajaJeyaraj"
 
   address:
     city: Palo Alto
@@ -106,11 +163,11 @@ cv:
     Skills:
       - name: Generative AI
         icon: fa-solid fa-wand-magic-sparkles
-        keywords: "Transformers, LLMs, Multimodal Learning, RAG, LangChain, ChromaDB, LoRA Fine-tuning, Knowledge Distillation, Quantization, Self-supervised Learning"
+        keywords: "Attention Mechanisms, Transformers, LLMs, Multimodal Learning, RAG, LangChain, ChromaDB, LoRA Fine-tuning, Knowledge Distillation, Quantization, Self-supervised Learning, Pretraining, Fine-tuning"
 
       - name: Computer Vision
         icon: fa-solid fa-eye
-        keywords: "ViT, Multiple Instance Learning, U-Net, nnU-Net, SegFormer, SAM, YOLO, DETR, MediaPipe, QuPath, Roboflow, LabelImg"
+        keywords: "Image Classification, ViT, Multiple Instance Learning, U-Net, nnU-Net, SegFormer, SAM, SambaUNet, YOLO, DETR, MediaPipe, Gesture-to-Audio Mapping, QuPath, Roboflow, LabelImg"
 
       - name: MLOps & Data Engineering
         icon: fa-solid fa-gears
@@ -118,7 +175,7 @@ cv:
 
       - name: Cloud & DevOps
         icon: fa-solid fa-cloud
-        keywords: "AWS, GCP, OpenStack, KVM, VirtualBox, GitHub Actions, Git"
+        keywords: "AWS, Google Cloud Platform (GCP), OpenStack, KVM, VirtualBox, Docker, GitHub Actions, Git"
 
       - name: Programming & Frameworks
         icon: fa-solid fa-code
@@ -127,11 +184,23 @@ cv:
     Interests:
       - name: Research Interests
         icon: fa-solid fa-lightbulb
-        keywords: "Large Language Models (LLMs), Vision Language Models (VLMs), Large-scale Image Analytics, Image Classification & Segmentation, Deep Learning Optimization"
+        keywords: "Large Language Models (LLMs), Vision-Language Models (VLMs), Large-scale Image Analytics, Image Classification and Segmentation, Deep Learning Optimization"
 
       - name: Research Domains
         icon: fa-solid fa-flask
         keywords: "Computer Vision, Multimodal Learning, Biomedical AI and Medical Imaging, Multimodal and Generative AI, Cloud and Distributed Computing"
+
+    Selected Publications:
+      - name: "MICCAI 2026"
+        summary: "Selected publication venue; see Publications page for manuscript details."
+      - name: "CVPR 2026"
+        summary: "Selected publication venue; see Publications page for manuscript details."
+      - name: "NeurIPS 2025"
+        summary: "Selected publication venue; see Publications page for manuscript details."
+      - name: "Expert Systems with Applications 2024"
+        summary: "Selected journal publication; see Publications page for manuscript details."
+      - name: "ACM Computing Surveys 2023"
+        summary: "Selected journal publication; see Publications page for manuscript details."
 
     Projects:
       - name: AI-based Histopathology

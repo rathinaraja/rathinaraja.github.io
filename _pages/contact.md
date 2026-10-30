@@ -3,7 +3,7 @@ layout: page
 permalink: /contact/
 title: Contact
 nav: true
-nav_order: 99
+nav_order: 6
 toc: false
 ---
 

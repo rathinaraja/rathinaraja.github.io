@@ -15,9 +15,9 @@ toc: false
 .cv-actions{display:flex;flex-wrap:wrap;gap:.7rem;margin:.8rem 0 1.65rem;justify-content:flex-end;}
 .cv-action{display:inline-flex;align-items:center;gap:.6rem;padding:.68rem 1.15rem;border:1px solid var(--cv-accent);border-radius:11px;text-decoration:none!important;font-weight:700;transition:background .2s,transform .2s,box-shadow .2s;}
 .cv-action:hover,.cv-action:focus-visible{background:var(--cv-accent);color:white!important;transform:translateY(-2px);box-shadow:0 5px 16px rgba(0,0,0,.13);}
-.cv-profile-links{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:.44rem;margin:.85rem 0 1.8rem;}
-.cv-profile-links a{display:flex;align-items:center;justify-content:flex-start;gap:.42rem;min-width:0;white-space:nowrap;text-decoration:none!important;font-size:.82rem;font-weight:600;line-height:1.3;padding:.48rem .55rem;border:1px solid var(--global-divider-color,#ddd);border-radius:9px;background:var(--global-card-bg-color,transparent);transition:border-color .18s,background .18s,transform .18s,box-shadow .18s;}
-.cv-profile-links a i{color:var(--cv-accent);font-size:1rem;flex:0 0 1.1rem;text-align:center;}
+.cv-profile-links{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:.35rem;margin:.75rem 0 1.6rem;}
+.cv-profile-links a{display:flex;align-items:center;justify-content:flex-start;gap:.42rem;min-width:0;white-space:nowrap;text-decoration:none!important;font-size:.76rem;font-weight:600;line-height:1.25;padding:.37rem .44rem;border:1px solid var(--global-divider-color,#ddd);border-radius:9px;background:var(--global-card-bg-color,transparent);transition:border-color .18s,background .18s,transform .18s,box-shadow .18s;}
+.cv-profile-links a i{color:var(--cv-accent);font-size:.9rem;flex:0 0 1rem;text-align:center;}
 .cv-profile-links a span{overflow:hidden;text-overflow:ellipsis;}
 .cv-profile-links a:hover,.cv-profile-links a:focus-visible{border-color:var(--cv-accent);background:rgba(100,120,180,.07);transform:translateY(-2px);box-shadow:0 3px 10px rgba(0,0,0,.07);}
 .cv-profile h2{margin:2.2rem 0 1rem;padding:0 0 .65rem;border-bottom:2px solid var(--global-divider-color,#ddd);font-size:1.5rem;font-weight:750;letter-spacing:-.02em;}
@@ -53,6 +53,7 @@ toc: false
 
   <div class="cv-profile-links" aria-label="Professional profiles">
     {% for profile in resume.profile_links %}
+      {% unless profile.name == "Official" %}
       <a href="{{ profile.url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ profile.name }}">
         {% case profile.name %}
         {% when 'Official' %}<i class="fa-solid fa-building-columns" aria-hidden="true"></i>
@@ -69,6 +70,7 @@ toc: false
         {% when 'SciProfiles' %}<i class="fa-solid fa-user-graduate" aria-hidden="true"></i>
         {% when 'Academia.edu' %}<i class="fa-solid fa-landmark" aria-hidden="true"></i>
         {% endcase %} <span>{{ profile.name }}</span></a>
+    {% endunless %}
     {% endfor %}
   </div>
 

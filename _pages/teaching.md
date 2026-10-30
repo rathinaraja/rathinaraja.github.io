@@ -25,6 +25,10 @@ calendar: false
 .teach-card{position:relative;overflow:hidden;padding-top:1.6rem}.teach-card:before{content:"";position:absolute;top:0;left:0;width:100%;height:4px;background:var(--teach-accent)}.teach-card h3{letter-spacing:-.015em}.teach-card ul{list-style:none;padding:0}.teach-card li{position:relative;padding:.3rem .35rem .3rem 1.25rem;border-bottom:1px solid var(--global-divider-color,#ddd)}.teach-card li:last-child{border-bottom:none}.teach-card li:before{content:"";position:absolute;left:.2rem;top:.85rem;width:6px;height:6px;background:var(--teach-accent);border-radius:50%}.teach-level{margin-bottom:.35rem}.teach-grid{gap:1.15rem}
 /* Keep page titles in navigation, not repeated above the content. */
 .post-header .post-title,.post-header h1,.page-header .page-title{display:none!important}
+.teach-card{box-shadow:0 4px 18px rgba(0,0,0,.06);border-radius:16px}.teach-card h3{color:var(--teach-accent)}.teach-card:hover{box-shadow:0 9px 26px rgba(0,0,0,.09)}.teach-place i{color:var(--teach-accent)}.teach-note{padding:.65rem .9rem;background:rgba(100,120,180,.07);border-radius:10px;display:inline-block}
+
+/* Hide only the automatic duplicate page heading, preserving all content headings. */
+.post-header,.page-header{display:none!important}
 </style>
 
 <div class="teach-wrap">

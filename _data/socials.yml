@@ -10,6 +10,7 @@
 #   title: Custom Social
 #   url: https://www.alberteinstein.com/
 
+email: jrathinaraja@gmail.com # your email address
 # ---- custom (official site) ----
 # stanford:
 #   logo: /assets/img/logos/stanford.png
@@ -20,7 +21,7 @@
 linkedin_username: rathinaraja-jeyaraj-14590a91
 scholar_userid: mJkw7uEAAAAJ
 github_username: rathinaraja
-research_gate_profile: Rathinaraja-Jeyaraj
+# research_gate_profile: Rathinaraja-Jeyaraj
 
 # ---- custom ----
 openreview:
@@ -35,17 +36,17 @@ wos:
 # ---- built-in icons ----
 orcid_id: 0000-0003-0165-181X
 scopus_id: 57203111601
-dblp_url: https://dblp.org/pid/222/3431.html
-semanticscholar_id: 51043236
+# dblp_url: https://dblp.org/pid/222/3431.html
+# semanticscholar_id: 51043236
 
-# ---- custom ----
-sciprofiles:
-  logo: /assets/img/logos/sciprofiles.png
-  title: SciProfiles
-  url: https://sciprofiles.com/profile/2886680
-academia:
-  logo: /assets/img/logos/academia.png
-  title: Academia
-  url: https://stanford.academia.edu/RathinarajaJeyaraj
-cv_pdf: /assets/pdf/RATHINARAJA_JEYARAJ_CV.pdf # path to your CV PDF file
-email: jrathinaraja@gmail.com # your email address
+# # ---- custom ----
+# sciprofiles:
+#   logo: /assets/img/logos/sciprofiles.png
+#   title: SciProfiles
+#   url: https://sciprofiles.com/profile/2886680
+# academia:
+#   logo: /assets/img/logos/academia.png
+#   title: Academia
+#   url: https://stanford.academia.edu/RathinarajaJeyaraj
+# cv_pdf: /assets/pdf/RATHINARAJA_JEYARAJ_CV.pdf # path to your CV PDF file
+

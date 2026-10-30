@@ -12,7 +12,7 @@ toc: false
 <style>
 /* Scoped CV design: compact profiles, stronger hierarchy, and responsive cards. */
 .cv-profile{max-width:1120px;margin:0 auto;line-height:1.7;--cv-accent:var(--global-theme-color,#2563eb);}
-.cv-actions{display:flex;flex-wrap:wrap;gap:.7rem;margin:.8rem 0 1.65rem;}
+.cv-actions{display:flex;flex-wrap:wrap;gap:.7rem;margin:.8rem 0 1.65rem;justify-content:flex-end;}
 .cv-action{display:inline-flex;align-items:center;gap:.6rem;padding:.68rem 1.15rem;border:1px solid var(--cv-accent);border-radius:11px;text-decoration:none!important;font-weight:700;transition:background .2s,transform .2s,box-shadow .2s;}
 .cv-action:hover,.cv-action:focus-visible{background:var(--cv-accent);color:white!important;transform:translateY(-2px);box-shadow:0 5px 16px rgba(0,0,0,.13);}
 .cv-profile-links{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:.44rem;margin:.85rem 0 1.8rem;}

@@ -202,6 +202,13 @@ cv:
       - name: "ACM Computing Surveys 2023"
         summary: "Selected journal publication; see Publications page for manuscript details."
 
+    Memberships:
+      - name: IEEE
+        summary: "Senior Member"
+
+      - name: ACM
+        summary: "Member"
+
     Projects:
       - name: AI-based Histopathology
         start_date: 2024-10
@@ -236,6 +243,7 @@ cv:
         end_date: 2022-02
 
     Research Proposals:
+      # Contributions to the development of the following research proposals.
       - name: "Unsupervised learning-based WSI classification and clinical text generation using multimodality"
         summary: "2024"
 
@@ -261,9 +269,3 @@ cv:
       - name: Reviewer
         summary: "ICLR, CVPR, NeurIPS, WACV, MICCAI (2026); JBHI (2025 – present); Neural Networks (2024 – present); Journal of Supercomputing (2023 – present); IEEE Transactions on Artificial Intelligence (2023 – present); Applied Intelligence (2023 – present); Engineering Applications of Artificial Intelligence (2023 – present); ECML-PKDD (2022); IEEE Access (2021 – present)"
 
-    Memberships:
-      - name: IEEE
-        summary: "Senior Member"
-
-      - name: ACM
-        summary: "Member"

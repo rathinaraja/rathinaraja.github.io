@@ -2,6 +2,8 @@
 layout: about
 title: About
 permalink: /
+nav: true
+nav_order: 1
 subtitle: '<span style="color:#6A1B9A;">Researcher, Stanford University, Palo Alto, USA</span>'
 
 profile:

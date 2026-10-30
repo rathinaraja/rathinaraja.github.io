@@ -1,9 +1,9 @@
 ---
 layout: page
 permalink: /cv/
-title: Contact
+title: CV
 nav: true
-nav_order: 99
+nav_order: 5
 toc: false
 ---
 
@@ -46,34 +46,6 @@ toc: false
     <a class="cv-action" href="{{ '/assets/pdf/Rathinaraja_Jeyaraj_Resume.pdf' | relative_url }}" target="_blank" rel="noopener" aria-label="Open Resume PDF"><i class="fa-solid fa-file-lines" aria-hidden="true"></i> Resume <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
     <a class="cv-action" href="{{ '/assets/pdf/Rathinaraja_Jeyaraj_CV.pdf' | relative_url }}" target="_blank" rel="noopener" aria-label="Open full CV PDF"><i class="fa-solid fa-file-pdf" aria-hidden="true"></i> CV <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
   </div>
-  <h2>Contact Information</h2>
-  <p><strong>{{ resume.name }}</strong><br>{{ resume.label }}<br>{{ resume.organization }}<br>
-  {% for email in resume.emails %}<a href="mailto:{{ email }}">{{ email }}</a>{% unless forloop.last %} · {% endunless %}{% endfor %}<br>
-  <i class="fa-solid fa-location-dot" aria-hidden="true"></i> {{ resume.location }}</p>
-
-  <div class="cv-profile-links" aria-label="Professional profiles">
-    {% for profile in resume.profile_links %}
-      {% unless profile.name == "Official" %}
-      <a href="{{ profile.url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ profile.name }}">
-        {% case profile.name %}
-        {% when 'Official' %}<i class="fa-solid fa-building-columns" aria-hidden="true"></i>
-        {% when 'LinkedIn' %}<i class="fa-brands fa-linkedin" aria-hidden="true"></i>
-        {% when 'GitHub' %}<i class="fa-brands fa-github" aria-hidden="true"></i>
-        {% when 'Google Scholar' %}<i class="fa-solid fa-graduation-cap" aria-hidden="true"></i>
-        {% when 'ResearchGate' %}<i class="fa-brands fa-researchgate" aria-hidden="true"></i>
-        {% when 'OpenReview' %}<i class="fa-solid fa-file-pen" aria-hidden="true"></i>
-        {% when 'Web of Science' %}<i class="fa-solid fa-book-open" aria-hidden="true"></i>
-        {% when 'ORCID' %}<i class="fa-brands fa-orcid" aria-hidden="true"></i>
-        {% when 'Scopus' %}<i class="fa-solid fa-book" aria-hidden="true"></i>
-        {% when 'DBLP' %}<i class="fa-solid fa-database" aria-hidden="true"></i>
-        {% when 'Semantic Scholar' %}<i class="fa-solid fa-brain" aria-hidden="true"></i>
-        {% when 'SciProfiles' %}<i class="fa-solid fa-user-graduate" aria-hidden="true"></i>
-        {% when 'Academia.edu' %}<i class="fa-solid fa-landmark" aria-hidden="true"></i>
-        {% endcase %} <span>{{ profile.name }}</span></a>
-    {% endunless %}
-    {% endfor %}
-  </div>
-
   <h2>Professional Summary</h2>
   <p>{{ resume.summary }}</p>
 

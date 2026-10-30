@@ -34,5 +34,56 @@ My work focuses on building end-to-end AI pipelines, from data preparation and s
 My research philosophy is simple: build reliable data, develop generalizable models, and deliver interpretable, reproducible, and practically useful AI systems.
 
 <style>
-  .profile { width: 20% !important; }
+/* Profile portrait: comfortable desktop sizing and a phone-friendly stacked layout. */
+.profile {
+  width: clamp(235px, 29%, 320px) !important;
+  max-width: 100%;
+  margin-left: 1.6rem;
+  margin-bottom: 1.2rem;
+}
+.profile img,
+.profile .img-fluid {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 12px;
+}
+.profile .more-info,
+.profile .more-info p {
+  overflow-wrap: break-word;
+  word-break: normal;
+  line-height: 1.55;
+}
+.profile .more-info p {
+  font-size: .86rem !important;
+  text-align: center;
+  margin: .8rem 0 0;
+  padding: 0 .4rem;
+}
+@media (max-width: 767px) {
+  .profile,
+  .profile.float-right,
+  .profile.float-left {
+    float: none !important;
+    width: min(100%, 340px) !important;
+    max-width: 100% !important;
+    margin: 0 auto 1.7rem !important;
+    padding: 0 !important;
+  }
+  .profile img,
+  .profile .img-fluid {
+    width: 100% !important;
+    max-width: 340px;
+    height: auto !important;
+    margin: 0 auto;
+  }
+  .profile .more-info,
+  .profile .more-info p {
+    width: 100%;
+    max-width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 </style>

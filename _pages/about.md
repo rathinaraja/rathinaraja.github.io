@@ -27,11 +27,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I work at the intersection of AI, multimodal learning, and large-scale image analytics, with a strong focus on computational pathology and foundation models for healthcare. My current research interests include LLMs, VLMs, multimodal reasoning, whole-slide image analysis, retrieval-augmented generation (RAG), and trustworthy AI for medical decision support.
+I work at the intersection of machine learning, computer vision, multimodal learning, and healthcare, with a focus on biomedical and clinical AI. My research interests include large language models (LLMs), vision-language models (VLMs), foundation models, and trustworthy AI for clinical decision support.
 
-I develop scalable deep learning systems spanning WSI preprocessing, multiple instance learning, segmentation, survival prediction, and multimodal image-text modeling. My work also involves attention interpretability, contrastive learning, pathology foundation model adaptation, and large-scale AI pipelines. Beyond healthcare AI, I have experience in time-series forecasting, distributed computing, cloud infrastructure, and real-time computer vision systems for industrial and smart-city applications.
+My work focuses on building end-to-end AI pipelines, from data preparation and system design to model development, evaluation, deployment, and maintenance. I develop scalable deep learning and multimodal systems for whole-slide image preprocessing, multiple instance learning, classification, segmentation, survival prediction, and image-text modeling, and build Streamlit applications to support clinical and research use. A major part of my work involves improving data quality, model generalizability, and reliability for tumor diagnosis, subtyping, biomarker prediction, segmentation, and survival analysis. I also have experience with GPU infrastructure, large-scale datasets, and distributed computing.
+
+My research philosophy is simple: build reliable data, develop generalizable models, and deliver interpretable, reproducible, and practically useful AI systems.
 
 <style>
   .profile { width: 20% !important; }
 </style>
-I am particularly interested in building reliable, interpretable, and clinically meaningful AI systems that bridge computer vision, multimodal learning, and large-scale reasoning.

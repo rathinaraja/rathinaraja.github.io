@@ -36,6 +36,9 @@ toc: false
 @media(prefers-reduced-motion:reduce){.cv-action,.cv-profile-links a{transition:none;}.cv-action:hover,.cv-profile-links a:hover{transform:none;}}
 /* Keep page titles in navigation, not repeated above the content. */
 .post-header .post-title,.post-header h1,.page-header .page-title{display:none!important}
+
+/* Hide only the automatic duplicate page heading, preserving all content headings. */
+.post-header,.page-header{display:none!important}
 </style>
 
 <div class="cv-profile">

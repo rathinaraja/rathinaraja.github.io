@@ -30,17 +30,24 @@ calendar: false
 /* Hide only the automatic duplicate page heading, preserving all content headings. */
 .post-header,.page-header{display:none!important}
 
-/* Compact level legend immediately below the description, aligned right. */
-.teach-intro{margin-bottom:.35rem}
-.teach-legend-row{display:flex;justify-content:flex-end;align-items:center;margin:0 0 .9rem}
-.teach-legend-row .teach-note{display:inline-block;width:auto;max-width:100%;margin:0;padding:.3rem .6rem;font-size:.78rem;line-height:1.35;border-radius:7px;white-space:normal}
-@media(max-width:480px){.teach-legend-row .teach-note{font-size:.73rem;padding:.28rem .45rem}}
+/* Compact cards that do not stretch to match other cards in the same row. */
+.teach-wrap{max-width:930px}
+.teach-intro{margin-bottom:1rem;font-size:1rem}
+.teach-grid{gap:.7rem;align-items:start;grid-auto-rows:min-content}
+.teach-card{padding:.85rem 1rem .8rem!important;border-radius:11px!important;box-shadow:0 2px 10px rgba(0,0,0,.035)!important}
+.teach-card:before{height:3px}
+.teach-card h3{font-size:1rem;line-height:1.3;margin:0 0 .2rem}
+.teach-place{font-size:.79rem;margin-bottom:.42rem}
+.teach-level{font-size:.68rem;padding:.1rem .42rem;margin-bottom:.12rem}
+.teach-card ul{margin:.25rem 0 0}
+.teach-card li{font-size:.88rem;line-height:1.35;padding:.24rem .25rem .24rem 1.05rem}
+.teach-card li:before{top:.67rem;left:.12rem;width:5px;height:5px}
+@media(max-width:720px){.teach-grid{grid-template-columns:1fr}.teach-card{padding:.85rem 1rem .8rem!important}}
 </style>
 
 <div class="teach-wrap">
   <h2>Courses Taught</h2>
   <p class="teach-intro">Graduate and undergraduate instruction in data science, computing systems, and programming across universities in India and South Korea.</p>
-  <div class="teach-legend-row"><p class="teach-note"><strong>G</strong> — Graduate · <strong>UG</strong> — Undergraduate</p></div>
   <div class="teach-grid">
     <article class="teach-card">
       <h3>Kyungpook National University</h3>

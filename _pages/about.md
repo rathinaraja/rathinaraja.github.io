@@ -64,7 +64,7 @@ My research philosophy is simple: build reliable data, develop generalizable mod
   width: 100%;
   max-width: 100%;
   box-sizing: border-box;
-  margin: .8rem 0 0;
+  margin: .2rem 0 0;
   padding: 0;
 }
 @media (max-width: 767px) {

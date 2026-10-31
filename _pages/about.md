@@ -122,7 +122,7 @@ My research philosophy is simple: build reliable data, develop generalizable mod
   padding: 0 !important;
 }
 .profile .more-info {
-  margin-top: 0.2rem !important;
+  margin-top: 0.3rem !important;
   text-align: center !important;
   line-height: 1.4;
 }

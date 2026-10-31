@@ -51,15 +51,21 @@ My research philosophy is simple: build reliable data, develop generalizable mod
 }
 .profile .more-info,
 .profile .more-info p {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
   overflow-wrap: break-word;
   word-break: normal;
   line-height: 1.55;
 }
 .profile .more-info p {
-  font-size: .86rem !important;
+  font-size: calc(.86rem - 1pt) !important;
   text-align: center;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
   margin: .8rem 0 0;
-  padding: 0 .4rem;
+  padding: 0;
 }
 @media (max-width: 767px) {
   .profile,

@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About
+title: Home
 permalink: /
 subtitle: '<span style="color:#6A1B9A;">Researcher, Stanford University, Palo Alto, USA</span>'
 

@@ -33,8 +33,8 @@
   width: 100%;
   max-width: 100%;
   box-sizing: border-box;
-  margin: .2rem 0 0;
-  padding: 0;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 @media (max-width: 767px) {
   .profile,
@@ -60,6 +60,45 @@
     margin-left: auto;
     margin-right: auto;
   }
+}
+/* Make the portrait and its quotation one flush, equal-width column on desktop and mobile. */
+.profile {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: stretch !important;
+}
+.profile picture,
+.profile figure,
+.profile .profile-image,
+.profile .more-info {
+  display: block;
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 0;
+  box-sizing: border-box;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.profile picture img,
+.profile figure img,
+.profile > img,
+.profile .img-fluid {
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.profile .more-info {
+  text-align: center !important;
+  line-height: 1.4;
+}
+.profile .more-info > :first-child,
+.profile .more-info p {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  text-align: center !important;
 }
 </style> </div> <h2> <a href="/news/" style="color: inherit">news</a> </h2> <div class="news"> <div class="table-responsive"> <table class="table table-sm table-borderless"> <tr> <th scope="row" style="width: 20%">Oct 02, 2026</th> <td> 🎉 Our research work has been accepted at <strong>MICCAI 2026</strong>! </td> </tr> <tr> <th scope="row" style="width: 20%">Apr 21, 2026</th> <td> 🎉 Two research works have been accepted at <strong>CVPR 2026</strong>! </td> </tr> </table> </div> </div> <h2> <a href="/publications/" style="color: inherit">selected publications</a> </h2> <div class="publications"> <ol class="bibliography"> <li> <div class="row"> <div class="col col-sm-2 abbr"> <abbr class="badge rounded w-100">arXiv</abbr> <figure> <picture> <img src="/assets/img/publication_preview/2026-ARXIV2.png" class="preview z-depth-1 rounded" width="100%" height="auto" alt="2026-ARXIV2.png" data-zoomable loading="eager" onerror="this.onerror=null; document.querySelectorAll('.responsive-img-srcset').forEach(function (n) { n.remove(); });"> </picture> </figure> </div> <div id="jeyaraj2026mufasa" class="col-sm-8"> <div class="title">MUFASA: An Information Utility-Aware Preprocessing Framework for Reliable Model Reasoning in Computational Pathology</div> <div class="author"> <em>Rathinaraja Jeyaraj</em>, Barathi Subramanian, Songmi Noh, and <span class="more-authors" title="click to view 7 more authors" onclick=" var element=this; element.setAttribute('title', ''); var more_authors_text=element.textContent == '7 more authors' ? 'Mitchell N. Peterson, Terry Guo, George A. Fisher, Nigam H. Shah, Curtis P. Langlotz, Thomas J. Montine, Jeanne Shen' : '7 more authors'; var cursorPosition=0; var textAdder=setInterval(function(){ element.innerHTML = more_authors_text.substring(0, cursorPosition + 1); if (++cursorPosition == more_authors_text.length){ clearInterval(textAdder); } }, '10'); ">7 more authors</span> </div> <div class="periodical"> <em>arXiv preprint arXiv:2609.00424</em>, 2026 </div> <div class="periodical"> </div> <div class="links"> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> <a href="https://arxiv.org/abs/2609.00424" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> <a href="https://arxiv.org/pdf/2609.00424" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">jeyaraj2026mufasa</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{MUFASA: An Information Utility-Aware Preprocessing Framework for Reliable Model Reasoning in Computational Pathology}</span><span class="p">,</span>

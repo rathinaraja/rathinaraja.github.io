@@ -56,7 +56,7 @@ nav_order: 3
 /* Professional, responsive publication discovery controls. */
 .publication-browser { --pub-accent: var(--global-theme-color, #2563eb); }
 .publication-toolbar { display: flex; justify-content: flex-end; align-items: center; width: 100%; margin: 0 0 .85rem; }
-.publication-search { width: min(100%, 340px); max-width: 340px; margin-left: auto; }
+.publication-search { width: min(100%, 170px); max-width: 170px; margin-left: auto; }
 .publication-search > * { max-width: 100% !important; margin-left: auto !important; }
 .publication-search input,
 .publication-search #bibsearch,
@@ -92,7 +92,7 @@ nav_order: 3
 .publication-empty { border: 1px solid var(--global-divider-color, #dce1e7); border-radius: 12px; padding: 1.6rem; text-align: center; color: var(--global-text-color-light, #68717b); background: var(--global-card-bg-color, #fafafa); }
 
 @media (max-width: 600px) {
-  .publication-search { width: min(100%, 310px); }
+  .publication-search { width: min(100%, 155px); }
   .publication-tabs { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .3rem; }
   .publication-tab { min-width: 0; padding: .57rem .35rem; font-size: .85rem; }
 }

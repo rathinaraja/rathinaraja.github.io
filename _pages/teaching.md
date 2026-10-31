@@ -29,11 +29,18 @@ calendar: false
 
 /* Hide only the automatic duplicate page heading, preserving all content headings. */
 .post-header,.page-header{display:none!important}
+
+/* Compact level legend immediately below the description, aligned right. */
+.teach-intro{margin-bottom:.35rem}
+.teach-legend-row{display:flex;justify-content:flex-end;align-items:center;margin:0 0 .9rem}
+.teach-legend-row .teach-note{display:inline-block;width:auto;max-width:100%;margin:0;padding:.3rem .6rem;font-size:.78rem;line-height:1.35;border-radius:7px;white-space:normal}
+@media(max-width:480px){.teach-legend-row .teach-note{font-size:.73rem;padding:.28rem .45rem}}
 </style>
 
 <div class="teach-wrap">
   <h2>Courses Taught</h2>
   <p class="teach-intro">Graduate and undergraduate instruction in data science, computing systems, and programming across universities in India and South Korea.</p>
+  <div class="teach-legend-row"><p class="teach-note"><strong>G</strong> — Graduate · <strong>UG</strong> — Undergraduate</p></div>
   <div class="teach-grid">
     <article class="teach-card">
       <h3>Kyungpook National University</h3>
@@ -66,5 +73,4 @@ calendar: false
       <ul><li>Computer Graphics</li><li>Advanced Java Programming</li></ul>
     </article>
   </div>
-  <p class="teach-note"><strong>G</strong> — Graduate · <strong>UG</strong> — Undergraduate</p>
 </div>

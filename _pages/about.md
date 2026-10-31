@@ -64,8 +64,8 @@ My research philosophy is simple: build reliable data, develop generalizable mod
   width: 100%;
   max-width: 100%;
   box-sizing: border-box;
-  margin: .2rem 0 0;
-  padding: 0;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 @media (max-width: 767px) {
   .profile,
@@ -91,5 +91,44 @@ My research philosophy is simple: build reliable data, develop generalizable mod
     margin-left: auto;
     margin-right: auto;
   }
+}
+/* Make the portrait and its quotation one flush, equal-width column on desktop and mobile. */
+.profile {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: stretch !important;
+}
+.profile picture,
+.profile figure,
+.profile .profile-image,
+.profile .more-info {
+  display: block;
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 0;
+  box-sizing: border-box;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.profile picture img,
+.profile figure img,
+.profile > img,
+.profile .img-fluid {
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.profile .more-info {
+  text-align: center !important;
+  line-height: 1.4;
+}
+.profile .more-info > :first-child,
+.profile .more-info p {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  text-align: center !important;
 }
 </style>

@@ -19,6 +19,7 @@ nav_order: 3
     <button type="button" class="publication-tab" role="tab" id="pub-tab-journal" aria-controls="pub-panel-journal" aria-selected="false" data-publication-tab="journal" tabindex="-1">Journals</button>
     <button type="button" class="publication-tab" role="tab" id="pub-tab-conference" aria-controls="pub-panel-conference" aria-selected="false" data-publication-tab="conference" tabindex="-1">Conferences</button>
     <button type="button" class="publication-tab" role="tab" id="pub-tab-book" aria-controls="pub-panel-book" aria-selected="false" data-publication-tab="book" tabindex="-1">Books</button>
+    <button type="button" class="publication-tab" role="tab" id="pub-tab-patent" aria-controls="pub-panel-patent" aria-selected="false" data-publication-tab="patent" tabindex="-1">Patents</button>
   </div>
 
   <div class="publication-panels">
@@ -41,6 +42,12 @@ nav_order: 3
       <div class="publications">
         {% bibliography --query @*[type=book] --prefix books- %}
       </div>
+    </section>
+    <section class="publication-panel" id="pub-panel-patent" role="tabpanel" aria-labelledby="pub-tab-patent" data-publication-panel="patent" hidden>
+      <div class="publications">
+        {% bibliography --query @*[type=patent] --prefix patents- %}
+      </div>
+      <p class="publication-empty" id="publication-patent-empty">No patents listed yet.</p>
     </section>
   </div>
 </div>
@@ -82,6 +89,8 @@ nav_order: 3
 .publication-panel[hidden] { display: none !important; }
 .publication-panel .publications { margin-top: .3rem; }
 .publication-panel .bibliography li { scroll-margin-top: 6rem; }
+.publication-empty { border: 1px solid var(--global-divider-color, #dce1e7); border-radius: 12px; padding: 1.6rem; text-align: center; color: var(--global-text-color-light, #68717b); background: var(--global-card-bg-color, #fafafa); }
+
 @media (max-width: 600px) {
   .publication-search { width: min(100%, 310px); }
   .publication-tabs { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .3rem; }
@@ -99,6 +108,11 @@ nav_order: 3
     if (!root) return;
     const tabs = Array.from(root.querySelectorAll("[data-publication-tab]"));
     const panels = Array.from(root.querySelectorAll("[data-publication-panel]"));
+    const patentPanel = root.querySelector('[data-publication-panel="patent"]');
+    const patentEmpty = document.getElementById("publication-patent-empty");
+    if (patentPanel && patentEmpty) {
+      patentEmpty.hidden = patentPanel.querySelectorAll(".bibliography li").length > 0;
+    }
     function selectTab(selected, focus) {
       tabs.forEach(function (tab) {
         const active = tab === selected;

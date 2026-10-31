@@ -36,7 +36,7 @@ My research philosophy is simple: build reliable data, develop generalizable mod
 <style>
 /* Profile portrait: comfortable desktop sizing and a phone-friendly stacked layout. */
 .profile {
-  width: clamp(235px, 20%, 320px) !important;
+  width: clamp(235px, 23%, 320px) !important;
   max-width: 100%;
   margin-left: 1.6rem;
   margin-bottom: 1.2rem;
@@ -72,7 +72,7 @@ My research philosophy is simple: build reliable data, develop generalizable mod
   .profile.float-right,
   .profile.float-left {
     float: none !important;
-    width: min(100%, 240px) !important;
+    width: min(100%, 280px) !important;
     max-width: 100% !important;
     margin: 0 auto 1.7rem !important;
     padding: 0 !important;
@@ -80,14 +80,14 @@ My research philosophy is simple: build reliable data, develop generalizable mod
   .profile img,
   .profile .img-fluid {
     width: 100% !important;
-    max-width: 240px;
+    max-width: 280px;
     height: auto !important;
     margin: 0 auto;
   }
   .profile .more-info,
   .profile .more-info p {
     width: 100%;
-    max-width: 240px;
+    max-width: 280px;
     margin-left: auto;
     margin-right: auto;
   }
